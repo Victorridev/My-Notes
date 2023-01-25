@@ -1,5 +1,6 @@
-# dio_desafio_primeiro_repositorio #
-Primeiro Repositório Usando a Tecnologia Git!
+# Anotações #
 
-## Lins úteis ##
-  [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
+  _Início_
+      
+      Aqui, se encontra meu progresso demostrado por anotações e pequenas práticas junto com meus professores da Digital Innovation One. 
+      Seja bem vindo ao progresso desse futuro Dev Backend!
