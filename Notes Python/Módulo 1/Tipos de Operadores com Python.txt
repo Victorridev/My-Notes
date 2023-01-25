@@ -1,0 +1,41 @@
+## Tipos de Operadores Com Python ##
+	_Operadores aritméticos_
+		Executam operações matemáticas. - + * / **(exponenciação) //(resultado inteiro) %(resto)
+		segue a mesma regra de sequência da matemática elementar.
+	
+	_Operadores de comparação_
+		os operadores de comparação sempre retornam um valor booleano
+		<= == >= != ===
+	
+	_Operadores de Atribuição_
+		ex: saldo = 500
+		    saldo =- 200
+		    print(saldo)
+		    >>>700
+		funciona com todos os operadores aritméticos 
+		
+	_Operadores Lógicos_
+		.Operador E
+			ex: saldo=1000
+			    saque=200
+			    limite=100
+			    saldo >=saque and saque <=limite
+			    >>>false
+			    
+			    podemos usar aqui: and;or;not(operador de negação, queprinta o inverso, lembrando que coisas vazias no py, tem um valor booleano false);
+			    operadores lógicos devem ser usados juntos com operadores de comparação
+			    
+	_Operadores de identidade_	
+		o operador de identidade é o operador is.
+		ex: curso = "Cursos de py"
+			nome_curso= curso
+		saldo, limite = 200, 100
+		
+		curso is nome_curso
+		>>>true
+		curso is not nome_curso
+		>>> false
+	
+	_operadores de associação_
+		são operadores usados para verificar se algum objeto se encontra em uma sequência.
+		os operadores são in e not in		    

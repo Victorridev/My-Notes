@@ -1,0 +1,21 @@
+ Dicionários: Criação e acesso a dados
+ 	
+ 	_dicionário_
+ 		
+ 		é um conjunto não-ordenado de pares chave:valor, onde as chaves são únicas em uma dada instância do dicionário. Dicionários são delimitados por chaves: {} ou o construtor dict()
+ 		sempre que tu quiser acessar um dicionário vai ser que ser entre colchetes
+ 		 	
+ 	_Dicionários aninhados_
+ 		
+ 		olha no code
+ 		
+ 	_Dicionário INterado_
+ 		
+ 		olha no code
+ 		
+ 	_Métodos da classe dict_
+ 		
+ 		.copy() (copia) , .fromkeys() (Cria chaves para você), .get() ( usamos esse método para saber se uma chave existe ou não no dicionário.) , .keys() (retorna só as chaves do dicionário)
+ 		.setdefault() (não entendi muito bem, pesquisar dps) , .update({}) (ele deixa a gente atualizar o dicionário com outro dicionário), .values() (retorna todos os valores do dicionário)
+ 		há um forma elegante de usar 
+ 		

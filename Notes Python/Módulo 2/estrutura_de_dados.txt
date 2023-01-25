@@ -1,0 +1,52 @@
+## ESTRUTURA_DE_DADOS ##
+	_Listas_
+	
+		lista em py é uma sequencia que pode armazenar qualquer tipo de objeto. Lembre-se que em py, tudo é objeto
+		criamos uma lista com o construtor list, ou colocar colchetes com itens separados por vírgula, que é o mais comum
+		lembrando que todas a listas começam com a letra 0
+		se quiser acessar o primeiro item da lista, se você quer o primeiro , declare a lista , ex: lista[0]
+		se você quer pegar o ultimo item de uma lista ex: lista[-1]
+		matrizes são lidas assim. maatriz[](essse que é a escolha da coluna)[](esse que é a ordem da coluna)
+ex: matriz = [
+    [1, "a", 2],
+    ["b", 3, 4],
+    [6, 5, "c"]
+]
+
+print(matriz[0])  # [1, "a", 2]
+print(matriz[0][0])  # 1
+print(matriz[0][-1])  # 2
+print(matriz[-1][-1])  # "c"
+
+	
+	_Fattiamento_de_lista_
+
+ex: lista = ["p", "y", "t", "h", "o", "n"]
+
+print(lista[2:])  # ["t", "h", "o", "n"]
+print(lista[:2])  # ["p", "y"]
+print(lista[1:3])  # ["y", "t"]
+print(lista[0:3:2])  # ["p", "t"]
+print(lista[::])  # ["p", "y", "t", "h", "o", "n"]
+print(lista[::-1])  # ["n", "o", "h", "t", "y", "p"]
+
+no vs code, já temos bastante material dado pelo professor
+	
+	_Tuplas_
+	
+		bem , a tupla é basicamente uma irmã da lista
+		a maior diferença entre lista e tupla é que a lista é mutável , ou seja, pode ser mudada, e a tupla é imutável, ou seja , não pode ser mudado
+		a tupla é declarada entre parenteses.
+		é uma boa prática colocar uma virgula no final da tupla, mas dentro do parentese
+		tuplas aninhadas, é a mesma coisa que a lista aninhada, que chamei de matriz anteriormente.
+		para interar também é a mesma coisa, olhe no vscode, lembre sempre de revisar
+		 . Para o acesso direto a uma tupla
+		 	é basicamente igual a lista, nada de diferente, ainda suporta  os indices negativos para indicar
+		 
+		_fatiamento_de_tupla_
+			
+			mesma lógica da lista, só ler de novo.
+	
+	_qual_erro_aparece_quando_tento_alterar_uma_tupla
+		ele não deixa, dá type error, ela não suporta a atribuição de itens.
+		

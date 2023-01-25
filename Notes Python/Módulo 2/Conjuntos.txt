@@ -1,0 +1,19 @@
+	.Set 
+		
+		consultor usado para eliminar duplicidade
+		o set nem sempre te retorna o objeto printado ordenamente
+	
+	.Iterar conjuntos
+		
+		da para interar em um for.
+	
+	.Métodos da classe set
+		
+		Dá para fazer as mesmas operações que fazemos na matemática.
+		como .union (união), .intersection (ou seja, os números que se repetem entre os conjuntos), .diferrence (Números que se diferenciam entre os dois conjuntos)
+		.issusubset(todos os elementos de a pertencem a b?), .idisjoint (Os elementos desse conjunto são correlacionados ou congruente?) todos esse retornam booleans
+		.add (adiciona ao conjunto) , .clear (limpa) , .copy(gerou uma cópia) , .discard (descartar um valor ()) , .pop()(tirando os valores da lista, pouco a pouco)
+		len() serve para tirar o tamanho do conjunto
+		(elemento) in numeros , retorna um boolian para caso esteja ou não
+		
+		

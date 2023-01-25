@@ -1,0 +1,71 @@
+## Manipulação_de_strings ##
+	_Classe String, metodos úteis_
+		.Metodo upper lower e title
+			ex: curso = "PyThOn"
+				print(curso.upper()) >>> PYTHON
+				print(curso.lower()) >>> python
+				print(curso.title()) >>> Python
+	
+		.strip(remove os espaçoes em branco da esquerda e da direita)
+		 lstripe(remove os da esquerda)
+		 rstrip(remove os da direita)
+		 
+		.Junção e centralização
+			..Metodo center
+				ex: curso = "Python"
+					print(curso.center(10, "#"))
+					>>> "##Python##
+			
+			..Metodo Join
+				ex:
+					curso = "Python"
+					 print(".".join(curso))
+					 >>> "P.h.y.t.h.o.n"
+		
+	_Interpolação de variáveis_
+		.old style 
+			nome = Alan
+			 print("Meu nome é %s) %(nome)
+		.metodo format
+			nome= alan
+			sobrenome = Victor
+			bom_saber = Nada
+			print("meu nome é {0} {1} {2} {3}) .format (Nome, sobrenome, bom_saber)
+			) (Aqui podemos além de colocar a sequência, podemos destacar a variavel mesmo
+			
+		.f string
+			nome = "Guilherme"
+			idade = 18.858282828282828282828282
+			profissão = "Programador"
+			linguagem = "Python"
+			
+			print (f"olá, me chamo {nome}. Eu tenho {idade:10.2f} anos de idade, trabalho como {profissão} e estou matriculado no curso de {linguagem}.")
+     
+     
+     _Fatiamento de strings_ 
+     		ex: nome = "Alan Victor De Amorim Veras"
+     			nome{0}
+     			>>> "A"
+     			nome{:4)
+     			>>>Alan
+     			nome{5:}
+     			>>>Victor De Amorim Veras
+     			nome{5:11}
+     			>>>Victor
+     			nome{:}
+     			>>> Alan Victor De Amorim Veras
+     	
+     	_strings Multiplas_
+     		nome= "alan"
+     		mensagem = f""" Olá meu nome é {nome},
+     		eu estou aprendendo python. essa mensagem tem diferentes recuos"""
+     		
+     		simplesmente, multiplas strings preserva os espaços
+     		Não fica usando \n , verme, use multiplas strings
+     	
+     	
+     		
+     		
+     			
+			
+			
