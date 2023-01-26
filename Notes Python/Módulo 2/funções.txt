@@ -1,0 +1,40 @@
+ ## Funções ##
+ 	
+ 	_Básico_ 
+ 		
+ 		.ex: def exibir_mensagem():
+ 			print('Teste de função')
+ 		
+ 		exibir_mensagem()
+ 		>>>Teste de função
+ 		
+ 	_Parametros especiais_
+ 		
+ 		.Estrutura
+ 				posicional only / posicional or keyword/ keyword only
+ 			def f(pos1, pos2, /, pos_or_kwd, * , kwd1, kwd2) :
+ 			
+ 			Deixando mais claro, tudo que ta a esquerda da barra é somente posição, e tudo que esta após o asterisco é somente keyword
+ 		
+		
+			..ex :
+		
+			 def criar_carro(modelo, ano , placa, / , marca , motor, combustivel):
+			 	print(modelo, ano, placa , marca, motor, combustivel)
+			 		
+			 	
+			 	criar_carro("Palio", 1999, "ABC-1234", marca="Fiat", motor= "1.0", combustivel="Gasolina") # Isso é válido
+			 	
+			 	criar_carro(modelo="Palio", ano=1999, placa="ABC-1234", marca= "Fiat", motor="1.0", combustivel = "Gasolina") # Isso é inválido
+			
+		 .Objetos de primeira classe
+		 	
+		 	Em Python tudo é objeto , dessa forma funções também são objetos o que as tornam de primeira classe
+		 	com isso, podemos atribuir funções a variaveis, passá-las como parametros para funções , usá-las como valores em estruturas de dados (listas, tuplas , dicionários, etc) e usar como valor de retorno para uma função ( closures).
+		 	vê exemplos nos arquivos do vs code
+		 
+	_Escopo Local e escopo global_
+		
+		Python trabalha com escopo local e global, dentro do bloco da função o escopo é local. Portanto alterações ali feiras em objetos imutáveis serão perdidas quando o método terminar de ser executado. Para usar objetos globais utilizamos a palavra-chave global, que informa ao interpretador que a variável que está sendo manipulada no escopo local é global. Essa NÂO é uma boa prática e deve ser evitada.
+		
+		ver ex do vs code.
