@@ -1,0 +1,105 @@
+## Introdução ao Banco de Dados ##
+	
+	_Modelo de banco de Dados realacional_
+		
+		Modelo de banco de dados , é inspirado em conjuntos. 
+		LDD , linguagem de definição de dados, é a tradução que o computador usa para manipular os sistemas.
+		
+	_Sitemas de gerenciamento de banco de dados ( SGBD's ) mais consolidados do mercado_ 
+	
+		.oracle 
+			ele é tão popular porque é pioneiro, ele é o melhor sistema de banco de dados , no que se concerne em soluções para as empresas
+		.mysql
+		.slqserver
+			mantido pela microsoft, ele tem boas abordagens, tem bons descontos para estruturas educacionais.
+		.PostgreSql
+		mongoDB
+		Redis
+	
+	_A ERA DOS DADOS E O FUTURO DA MODELAGEM_
+		
+		.Contexto Majoritario
+			
+			ele esta majoritariamente associado a sistemas corporativos. 
+			há também o ambiente acadêmico. 
+		
+		.Paralelismo
+			
+			capacidade de você processar processos em pararelo. Ou seja, multiplos processadores operando concorrentemente de maneira concomitante para chegar ao mesmo objejtivo
+			
+		.Big Data
+			
+			Processamento pararelo de dados PERSISTENTES e PARTICIONADOS
+			
+		.Cloud
+			
+			recursos de terceiros soluções de tecnologia como serviço
+			
+	_Mercado de Data_
+		
+		.Engenheiro de dados
+			
+			responsável pela sustentação das soluções de dados
+			
+		.Ciêntista de Dados
+		
+			Dentre suas habilidades, a maior é o reconhecimento de padrões e predições
+		
+		.Analista de dados
+			
+			Criação de dashboards e apresentação visual de dados.
+			
+	_SGBD's NOsql_
+	
+		São usados mais em situações pontuais como eventos, pois são potentes.
+		Not only SQL, ou seja, você pode usar estruturas distintas que preenchem o gap do sql
+	
+	_Abordagem de SGBD's vs abordagem Tradicional_
+	
+		.Abordagem de BD
+			
+			..Caracteristicas principais|
+			
+				abstração: Conceito de generalizar, trazer algo abstrato para o real. O SGBD's é transparente.
+				auto-descrição: Ele possui uma descrição incisiva que ajuda no gerenciamento de dados. Por essa vantagem , é bem difícil encontrar uma empresa que não use uma SGBD's
+				compartilhamento: Acontece que de uma maneira facilitada , ocorre o compartilhamento dos dados.
+				isolamento
+				Mútiplas visões
+				Transação Multiuser
+				
+		.Atores no BD
+		
+			BDs simples de acessos unicos , ou seja, apenas uma ou poucas pessoas estão interessadas
+			Big organizations , maior número de pessoas e maior necessidade de manutenções.
+			Dentre os autores, estão o |
+			Designer: Designer de banco de dados tem o papel de levantar os requisistos e identificar o tipo de cliente. Representar isso em graficos e apresentar a staff.
+			Administrador: Gerencia dos recursos do banco de dados, orquestra o sistema e cuida da autorização do acesso. Gerenciamento e Manutenção.
+			Usuários Finais: Ultimos Usuários
+			
+		.Vantagens de utilizar a abordagem com SGBD'S
+		
+			Controle de redundância
+			Restrição de acesso
+			Storage - prove persistência
+			Storage - prove estrutura
+			backup e Recovery
+		
+		.Ganhos em utilizar SGBD's
+			
+			Padronização
+			Redução do tempo dno desenvolvimento da aplicação
+			flexibilidade 
+			Disponibilidade de info atualizadads 
+			Economia com escalabilidade
+			
+		.Quando Não Utilizar SGBD's
+			
+			Em situações muito específicas, de problemas curtos que não precisam de confiabilidade alta, não tem multiplos acessos, tem um acesso unário, ou seja, só seu , um projeto.
+		.Abordagem Tradicional
+			
+			..Caracteristicas principais
+				
+				não tem uma autodescrição , o nivel de abstração não é tão elevado.
+			
+				
+				

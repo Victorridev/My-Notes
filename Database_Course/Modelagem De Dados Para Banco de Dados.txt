@@ -1,0 +1,11 @@
+## Modelageem de Dados para Bancos de Dados ##
+
+	_Introdução_
+		
+		Modelagem possui foco na descrição e relacionamento dos elementos que compõem a representação do contexto (mini-mundo)
+
+		.sequência de modelagem
+			
+			MiniMundo --> Alto nível --> Esquema --> SGBD
+			
+		
